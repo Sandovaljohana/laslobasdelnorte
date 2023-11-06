@@ -1,0 +1,101 @@
+
+
+/*diseño de página organización */
+
+.wrapper {
+    display: flex;  
+    flex-flow: row wrap;
+    text-align: center; 
+  }
+  
+  .wrapper > * {
+    padding: 10px;
+    flex: 1 100%;
+  }
+  
+  
+  .main {
+    text-align: left;
+    background: deepskyblue;
+  }
+  
+  .aside-1 {
+    background: gold;
+  }
+  
+  
+  @media all and (min-width: 600px) {
+    .aside { flex: 1 0 0; }
+  }
+  
+  @media all and (min-width: 800px) {
+    .main    { flex: 3 0px; }
+    .aside-1 { order: 1; } 
+    .main    { order: 2; }
+    .aside-2 { order: 3; }
+    .footer  { order: 4; }
+  }
+  
+  body {
+    padding: 2em; 
+  }
+  
+  
+/*diseño de página organización */
+
+/*código Ana*/
+
+  
+  main {
+    background-color: rgba(237, 237, 235, 1);
+    width: 80%;
+    min-height: 500px;
+    align-content: center;
+    margin-left: 300px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-left: 50px;
+    text-align: left;
+    font-family: "aref ruqaa", serif;
+  }
+  
+  p {
+    font-size: 32px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: justify;
+    font-family: "aref ruqaa", serif;
+  }
+
+  .avatar {
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px;
+  }
+
+  .avatar img {
+    width: 15vh;
+    margin-top: 1vh;
+    transition: transform 0.6s;
+  }
+
+  .avatar p {
+    text-align: center;
+    margin-top: 0px;
+  }
+
+  .raton:hover {
+    width: 15vh;
+    margin-top: 1vh;
+    transform: scale(1.1);
+  }
+
+
+  .footer {
+    background: lightgreen;
+  }
+
+  */

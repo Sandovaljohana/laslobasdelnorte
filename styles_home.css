@@ -1,0 +1,202 @@
+
+.logowolf {
+    display: flex;
+    width: 15vh;
+    margin-left: 5vh;
+    background-color: white;
+    border-radius: 50vh;
+}
+
+.navbar {
+    height: 20%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: ;
+    background: #442B2B;
+    padding: 1vh; 
+}
+
+.navbar-text {
+    font-family: 'Aref Ruqaa', serif;
+    margin-left: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-text a:hover {
+    font-family: 'Aref Ruqaa', serif;
+    color: #e0c7a4;
+    font-family: 'Aref Ruqaa', serif;
+}
+
+.navbar-text a {
+    font-family: 'Aref Ruqaa', serif;
+    margin-right: 50px;
+    color: white;
+
+}
+
+.navbar-text-h3lobas,
+.navbar-text-h3armas,
+.navbar-text-h3conquistas:hover {
+    font-family: 'Aref Ruqaa', serif;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-text a {
+    text-decoration: none;
+}
+
+.navbar-text a:visited {
+    text-decoration: white;
+}
+
+
+.logowolf:hover {
+    transform: scale(0.9);
+    transition: transform 0.8s;
+}
+
+.logowolf {
+    transition: transform 0.8s;
+}
+
+.container {
+    display: flex;
+    width: 1100px;
+    height: 470;
+}
+
+section {
+    width: 60%;
+    height: 70%;
+    float: left;
+}
+
+main {
+    align-content: center;
+    text-align: center;
+  }
+
+h1 {
+    font-family: 'Aref Ruqaa', serif;
+    margin-left: 5vh;
+    text-align: left;
+    font-weight: 700;
+  }
+  
+  p {
+    width: 70%;
+    height: 70%;
+    font-family: 'Aref Ruqaa', serif;
+    font-weight: 400;
+    margin-top: 2vh;
+    margin-left: 5vh;
+    margin-right: 5vh;
+    text-align: justify;
+  }
+
+  .avatar {
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 12% 12% 12% 12% 12%;
+    grid-column-gap:12%;
+    
+  }
+
+  .avatar img {
+    width: 15vh;
+    margin-top: 1vh;
+    transition: transform 0.6s;
+  }
+
+  .avatar p {
+    text-align: center;
+    margin-top: 0px;
+  }
+
+  .raton:hover {
+    width: 15vh;
+    margin-top: 1vh;
+    transform: scale(1.1);
+  }
+
+
+aside {
+    width: 40%;
+    float: left;
+    border-left: 1px solid white;
+    width: 40vh;
+    height: 70%;
+    background-color: #A4E0E0;
+}
+
+h3 {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  margin: 7vh 8vh 5vh 3vh;
+  color: #fff;
+}
+
+.banner-img {
+width: 38vh;
+height: 30vh;
+align-self: self-start;
+align-self: center;
+}
+
+.banner-logo {
+  align-self:last baseline;
+  align-self: center;
+  margin-left: 7vh;
+  margin-bottom: 6vh;
+}
+
+
+footer {
+    background: #442B2B;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    
+}
+.footer-caja {
+    display: flex;
+    justify-content: space-between;
+    padding: auto;
+}
+
+.left-content {
+    display: flex;
+    align-items: center; 
+    color: white;
+}
+
+.copyright{
+    width: 5vh;
+    height: 4vh;
+    margin-left: 3vh;
+    margin-top: 1vh;
+}
+
+.right-content {
+    display: flex;
+    align-items: center; 
+    margin-left: 30px;
+}
+    
+.redes-image {
+    width: 70px;
+    height: 70px;
+}
+
+.footer-text {
+    font-size: 3vh; 
+    font-family: 'Aref Ruqaa', serif;
+}
+.foto-logo-redes{
+    width: 15vh;
+    margin-right: 5vh;
+}
